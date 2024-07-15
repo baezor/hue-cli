@@ -1,20 +1,42 @@
-# Phillips Hue CLI 🚧
+# Hue-CLI
 
-> Control the lights of your house from your terminal.
+💡 Control the lights of your home from your terminal.
 
-Work in progress... 🚧
+This CLI tool allows you to control your Philips Hue lights from your terminal. You can turn on and off lights in a room.
 
-### How it works?
+[![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
+[![Version](https://img.shields.io/npm/v/hue-cli.svg)](https://npmjs.org/package/hue-cli)
+[![Downloads/week](https://img.shields.io/npm/dw/hue-cli.svg)](https://npmjs.org/package/hue-cli)
 
-```bash
-hue on/off [room/lights/scene]
+<!-- toc -->
 
-# More examples:
+- [Usage](#usage)
+- [Commands](#commands)
+<!-- tocstop -->
 
-# Controlling a room.
-hue on office
-hue off office
-# i.e hue on deep-work
-hue on deep-work
-hue on relax
+# Usage
+
+<!-- usage -->
+
+```sh-session
+$ npm install -g hue-cli
+$ hue-cli COMMAND
+running command...
+$ hue-cli (--version)
+hue-cli/0.0.0 darwin-arm64 node-v21.1.0
+$ hue-cli --help [COMMAND]
+USAGE
+  $ hue-cli COMMAND
+...
 ```
+
+<!-- usagestop -->
+
+# Commands
+
+<!-- commands -->
+
+- [`hue-cli init`](#hue-init)
+- [`hue-cli rooms`](#hue-cli-rooms)
+- [`hue-cli on <room>`](#hue-cli-on-room)
+- [`hue-cli off <room>`](#hue-cli-off-room)
